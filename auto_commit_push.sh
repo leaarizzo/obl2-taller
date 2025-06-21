@@ -6,11 +6,13 @@ if ! [ "$?"  -eq 0 ]
 then
 	echo "Cantidad de lineas modificadas: " >> README.md
 	git diff --shortstat HEAD >> README.md
+	echo "" >> README.md
+	uptime | awk '{print$1}'
+	echo "" >> README.md
 	git add .
 	git commit -m "`date`"
 	git push
 else
-	echo "No ha sido necesario realizar un commit ya que no se han realizado cambios" >> README.md
+	echo "No se han realizado cambios desde el ultimo commit" >> README.md
+	git push
 fi
-uptime | awk '{print$1}' >> README.md
-echo "  " >> README.md
