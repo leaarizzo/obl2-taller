@@ -7,13 +7,6 @@ then
 	echo "Cantidad de lineas modificadas: " >> README.md
 	git diff --numstat | awk '{a+=$1; e+=$2} END {print a + e}' >> README.md
 
-	echo "Lineas Agregadas: " >> README.md
-	git diff --numtstat HEAD | awk '{print$1}' >> README.md
-	echo "" >> README.md
-
-	echo "Lineas ELiminadas: " >> README.md
-	git diff --numstat HEAD | awk '{print$2}' >> README.md
-
 	uptime | awk '{print$1}' >> README.md
 
 	echo "" >> README.md
