@@ -42,3 +42,7 @@ Cantidad de lineas modificadas:
   
 Cantidad de lineas modificadas: 
  1 file changed, 4 insertions(+), 1 deletion(-)
+15:10:40
+  
+Cantidad de lineas modificadas: 
+ 1 file changed, 3 insertions(+)
