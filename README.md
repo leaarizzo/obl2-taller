@@ -35,6 +35,10 @@ Cantidad de lineas modificadas:
   
 No ha sido necesario realizar un commit ya que no se han realizado cambios
 15:04:51
-  
+ 
 Cantidad de lineas modificadas: 
  1 file changed, 4 insertions(+)
+15:05:40
+  
+Cantidad de lineas modificadas: 
+ 1 file changed, 4 insertions(+), 1 deletion(-)
