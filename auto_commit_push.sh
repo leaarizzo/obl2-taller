@@ -5,7 +5,7 @@ git diff --quiet HEAD
 if ! [ "$?"  -eq 0 ]
 then
 	echo "Cantidad de lineas modificadas: " >> README.md
-	git diff --shortstat HEAD | awk '{print$3}' >> README.md
+	git diff --shortstat HEAD | awk '{print$5}' >> README.md
 	echo "" >> README.md
 	uptime | awk '{print$1}' >> README.md
 	echo "" >> README.md
