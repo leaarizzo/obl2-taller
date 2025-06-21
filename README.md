@@ -6,3 +6,11 @@ Lineas Agregadas:
 2
 16:00:07
 
+No se han realizado cambios desde el ultimo commit
+Cantidad de lineas modificadas: 
+2
+Lineas Agregadas: 
+
+0
+16:00:51
+
