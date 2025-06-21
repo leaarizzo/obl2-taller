@@ -10,3 +10,8 @@ Cantidad de lineas modificadas:
  2 files changed, 8 insertions(+), 3 deletions(-)
 
 
+No se han realizado cambios desde el ultimo commit
+Cantidad de lineas modificadas: 
+ 2 files changed, 4 insertions(+), 2 deletions(-)
+
+

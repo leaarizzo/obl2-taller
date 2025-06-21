@@ -11,8 +11,8 @@ then
 	echo "" >> README.md
 	git add .
 	git commit -m "`date`"
-	git push
+	git push > /dev/null
 else
 	echo "No se han realizado cambios desde el ultimo commit" >> README.md
-	git push
+	git push > /dev/null
 fi
