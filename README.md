@@ -1,5 +1,5 @@
 Cantidad de lineas modificadas: 
- 2 files changed, 42 deletions(-)
+changed,
 
-15:35:06
+15:37:41
 
