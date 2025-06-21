@@ -7,12 +7,12 @@ then
 	echo "Cantidad de lineas modificadas: " >> README.md
 	git diff --shortstat HEAD >> README.md
 	echo "" >> README.md
-	uptime | awk '{print$1}'
+	uptime | awk '{print$1}' >> README.md
 	echo "" >> README.md
 	git add .
 	git commit -m "`date`"
-	git push > /dev/null
+	git push >> /dev/null
 else
 	echo "No se han realizado cambios desde el ultimo commit" >> README.md
-	git push > /dev/null
+	git push >> /dev/null
 fi
