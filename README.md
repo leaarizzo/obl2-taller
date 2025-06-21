@@ -26,3 +26,8 @@ Cantidad de lineas modificadas:
 
 15:31:05
 
+Cantidad de lineas modificadas: 
+ 2 files changed, 3 insertions(+), 2 deletions(-)
+
+15:31:55
+
