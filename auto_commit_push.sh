@@ -17,5 +17,7 @@ then
 	git push --quiet
 else
 	echo "No se han realizado cambios desde el ultimo commit" >> README.md
+	git add README.md
+	git commit -m "No han habido cambios: $(date '+%Y-%m-%d')"
 	git push --quiet
 fi
