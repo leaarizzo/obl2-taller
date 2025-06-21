@@ -14,3 +14,12 @@ Lineas Agregadas:
 0
 16:00:51
 
+Cantidad de lineas modificadas: 
+3
+Lineas Agregadas: 
+
+Lineas ELiminadas: 
+0
+1
+16:01:49
+

@@ -11,7 +11,7 @@ then
 	git diff --numtstat HEAD | awk '{print$1}' >> README.md
 	echo "" >> README.md
 
-	echo "Lineas ELiminadas: "
+	echo "Lineas ELiminadas: " >> README.md
 	git diff --numstat HEAD | awk '{print$2}' >> README.md
 
 	uptime | awk '{print$1}' >> README.md
