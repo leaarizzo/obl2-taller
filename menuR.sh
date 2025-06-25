@@ -11,7 +11,7 @@ done
 
 # importo funciones
 source login.sh
-source productos.sh
+source altaProductos.sh
 source ventas.sh
 
 mostrar_menu() {
